@@ -78,17 +78,17 @@ while run:
     if intro_choice == "a":
         print("The spirits of our ancestors watch over you, Marduk.  May your axe strike true, and may your heart remain strong against the biting winds and the darkness that dwells in the mountains. Take this [item - e.g., family amulet, map etched on bone, enchanted compass]. It will guide you. The path is perilous, but our hope goes with you. Go now, and may the Ice Wizard hear your plea.")
         print()
-        print("The weight of the village rests on my shoulders.  Fear is a cold companion, but duty is a stronger fire. I will not fail them. I will not fail her [mention a loved one if applicable]. The mountains await.  Frostfang is thirsty.")
+        print("...The weight of the village rests on my shoulders.  Fear is a cold companion, but duty is a stronger fire. I will not fail them. I will not fail her [mention a loved one if applicable]. The mountains await.  Frostfang is thirsty.")
         run = False
     elif intro_choice == "b":
         print("The trolls grow bolder with each passing sunset, Marduk. Time is a luxury we no longer possess. But even in haste, a warrior must be prepared. What do you need?")
         print()
-        print("My hands tremble, my heart pounds like a war drum. I need to focus. I need to… [mention a specific thing - sharpen the axe, pray to the gods, remember a piece of advice].  A moment's pause may mean the difference between life and death, for me and for them.")
+        print("...My hands tremble, my heart pounds like a war drum. I need to focus. I need to… [mention a specific thing - sharpen the axe, pray to the gods, remember a piece of advice].  A moment's pause may mean the difference between life and death, for me and for them.")
         # This opens up the opportunity for the player to perhaps gather supplies, talk to other villagers for information, or practice combat if the game allows it.
     elif intro_choice == "c":
         print( "Fear is a natural thing, Marduk. It is the shadow that walks beside courage. But fear must not paralyze you. Remember why you are doing this. Remember the faces of those you love, the laughter of children, the warmth of the hearth fire. These are the things the trolls would steal from us. Let that fear fuel your resolve, not extinguish it.  Take this [item]. It is a reminder of what you fight for. Now, go.  We believe in you.")
         print()
-        print( "The cold seeps into my bones, a mirror of the fear that grips my heart.  But they are more afraid than I am. They are weak, huddled in the darkness. I am their shield, however flawed.  I will channel this fear. I will make it my strength. For them, I will face the darkness.")
+        print( "...The cold seeps into my bones, a mirror of the fear that grips my heart.  But they are more afraid than I am. They are weak, huddled in the darkness. I am their shield, however flawed.  I will channel this fear. I will make it my strength. For them, I will face the darkness.")
         run = False
     else:
         print("You must make a choice: a, b, or c")
